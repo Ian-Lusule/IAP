@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CS 2207 Register Employee Hiring</title>
+</head>
+<body>
+  <form action="/submit" method="post">
+    <h2>CS 2207 Register Employee Hiring</h2>
+    <label for="name">Employee Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="id">ID Number:</label>
+    <input type="text" id="id" name="id" required><br><br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+    <label for="salary">Salary:</label>
+    <input type="number" id="salary" name="salary"><br><br>
+    <label for="allowance">House Allowance:</label>
+    <input type="number" id="allowance" name="allowance"><br><br>
+    <label for="department">Department:</label>
+    <select id="department" name="department">
+      <option value="">--Please choose an option--</option>
+      <option value="management">Management</option>
+      <option value="finance">Finance</option>
+      <option value="ict">ICT</option>
+      <option value="hr">Human Resource</option>
+      <option value="customer_service">Customer Service</option>
+    </select><br><br>
+    <label for="remarks">Employee Remarks:</label><br>
+    <textarea id="remarks" name="remarks"></textarea><br><br>
+    <input type="submit" value="Submit My Comments">
+  </form>
+</body>
+</html>
